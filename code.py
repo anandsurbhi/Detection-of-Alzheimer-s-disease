@@ -401,11 +401,6 @@ print("Test AUC with the best parameter is ", test_auc)
 ​
 m = 'Decision Tree'
 acc.append([m, test_score, test_recall, test_auc, fpr, tpr, thresholds])
-Best accuracy on validation set is: 0.7445887445887446
-Best parameter for the maximum depth is:  1
-Test accuracy with best parameter is  0.9166666666666666
-Test recall with best parameters is  0.8235294117647058
-Test AUC with the best parameter is  0.9117647058823529
 print("Feature importance: ")
 np.array([X.columns.values.tolist(), list(SelectedDTModel.feature_importances_)]).T
 Feature importance: 
