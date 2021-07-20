@@ -22,11 +22,18 @@ We conduct 10-fold cross-validation to figure out the best parameters for each m
 
 
 Best accuracy on cross validation set is: 0.7445887445887445
+
 Best parameter for c is:  1000
+
 Best parameter for gamma is:  0.1
+
 Best parameter for kernel is:  sigmoid
+
 Test accuracy with the best parameters is 0.6944444444444444
+
 Test recall with the best parameters is 0.8235294117647058
+
 Test recall with the best parameter is 0.7012383900928792
+
 
 
